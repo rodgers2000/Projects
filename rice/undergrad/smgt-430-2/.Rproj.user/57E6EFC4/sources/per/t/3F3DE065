@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524089455560.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "900949190",
+    "id" : "3F3DE065",
+    "lastKnownWriteTime" : 1524090076,
+    "last_content_update" : 1524090076542,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/SMGT 430/Project/Final Project/Game/Scripts/Backtest/run_naive_majority_univariate_backtest.R",
+    "project_path" : "Game/Scripts/Backtest/run_naive_majority_univariate_backtest.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

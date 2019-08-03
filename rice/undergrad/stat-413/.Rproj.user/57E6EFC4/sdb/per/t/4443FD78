@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(tidyverse)\nlibrary(caret)\nlibrary(R.utils)\nlibrary(parallel)\nlibrary(doParallel)\n\n# cores\ncluster = makeCluster(detectCores() - 1)\nregisterDoParallel(cluster)\n\n# source\nsourceDirectory(paste0(getwd(), '/Functions/Feature Selection/'))\nsourceDirectory(paste0(getwd(), '/Functions/Models/'))\nsourceDirectory(paste0(getwd(), '/Functions/Pipeline/'))\nsourceDirectory(paste0(getwd(), '/Functions/Split into Groups/'))\nsourceDirectory(paste0(getwd(), '/Functions/Others/'))\n# sourceDirectory('~/Documents/Languages/R/Machine Learning/Models/')\n\n# read\ndat_train <- read_csv(paste0(getwd(), '/Data/cooked_training_data.csv'))\ndat_test <- read_csv(paste0(getwd(), '/Data/cooked_test_data.csv'))\n\n# split\nTrain = list('group1' = get_group_data(dat_train, group_labs = 1:3), \n             'group2' = get_group_data(dat_train, group_labs = 4:5), \n             'group3' = get_group_data(dat_train, group_labs = 6))\n\nTest = split_test_data(dat_test)\n\nGroup = list('group1' = list('Train' = Train$group1, 'Test' = Test$group1), \n             'group2' = list('Train' = Train$group2, 'Test' = Test$group2), \n             'group3' = list('Train' = Train$group3, 'Test' = Test$group3))\n\nstart_time = proc.time()\n# Group 1 \nGroup$group1 = machine_learning(Group$group1, importance_selection, gbm_carrot)\n# Group 2\nGroup$group2 = machine_learning(Group$group2, importance_selection, rf_carrot)\n# Group 3 \nGroup$group3$Test$CrystalBall = 6\nend_time = proc.time()\n\n(end_time - start_time) / 60 / 60 # hours \n\nsubmit_predictions(Group, 'GBM AND RF')\n\nstopCluster(cluster)\n\nplot(Group$group1$Test$Method)\nplot(Group$group2$Test$Method)\n",
+    "created" : 1511411720442.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "375397468",
+    "id" : "4443FD78",
+    "lastKnownWriteTime" : 1511413249,
+    "last_content_update" : 1511413249984,
+    "path" : "~/Documents/Academics/Rice University/Semesters/Fall 2017/STAT 413/Project/Crystal Ballers/Programs/Tree of Michael /Tree.R",
+    "project_path" : "Programs/Tree of Michael /Tree.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "importance_selection <- function(group = Group){\n  # all feature selection functions will return a new list with features selected \n  library(randomForest)\n  \n  rf = randomForest(group$Train$X, factor(group$Train$Y), \n                    ntree = 600,  \n                    mtry = ncol(group$Train$X)\n                    )\n  \n  keep_vars = importance(rf)\n  feat_all = rownames(keep_vars)\n  feat_star = feat_all[keep_vars > 1]\n  \n  group$Train$X = group$Train$X[, colnames(group$Train$X) %in% feat_star]\n  group$Test$X = group$Test$X[, colnames(group$Test$X) %in% feat_star]\n  \n  return(group)\n}\n",
+    "created" : 1511389513822.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3067764741",
+    "id" : "4A538DC7",
+    "lastKnownWriteTime" : 1511411671,
+    "last_content_update" : 1511411671986,
+    "path" : "~/Documents/Academics/Rice University/Semesters/Fall 2017/STAT 413/Project/Crystal Ballers/Functions/Feature Selection/importance_selection.R",
+    "project_path" : "Functions/Feature Selection/importance_selection.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

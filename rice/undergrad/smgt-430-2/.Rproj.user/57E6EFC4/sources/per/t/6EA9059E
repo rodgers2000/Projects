@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523139590862.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1419467525",
+    "id" : "6EA9059E",
+    "lastKnownWriteTime" : 1523182117,
+    "last_content_update" : 1523182117724,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/SMGT 430/Project/Final Project/Game/Scripts/create_ts_for_each_team.R",
+    "project_path" : "Game/Scripts/create_ts_for_each_team.R",
+    "properties" : {
+        "cursorPosition" : "9,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

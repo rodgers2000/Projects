@@ -1,0 +1,1 @@
+A transform X object must produce a RAW DS X, Y that depends on time and ahead. This preps it for splitting the raw data into cooked Train and Test datasets. 

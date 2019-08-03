@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523552872878.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4219560004",
+    "id" : "F7806A40",
+    "lastKnownWriteTime" : 1523742923,
+    "last_content_update" : 1523742923559,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/SMGT 430/Project/Final Project/Game/Objects/AFTER.R",
+    "project_path" : "Game/Objects/AFTER.R",
+    "properties" : {
+        "cursorPosition" : "34,10",
+        "scrollLine" : "0",
+        "source_window_id" : "",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

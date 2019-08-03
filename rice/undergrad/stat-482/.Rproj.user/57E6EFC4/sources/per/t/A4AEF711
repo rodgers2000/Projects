@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1515873988638.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3454581742",
+    "id" : "A4AEF711",
+    "lastKnownWriteTime" : 1511918247,
+    "last_content_update" : 1511918247,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Fall 2017/STAT 482/Final Project/Learning the Fundamentals/Scripts/tidy_data-1.R",
+    "project_path" : "Scripts/tidy_data-1.R",
+    "properties" : {
+        "cursorPosition" : "6,38",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

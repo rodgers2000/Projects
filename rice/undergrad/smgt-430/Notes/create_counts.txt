@@ -1,0 +1,14 @@
+subset pitcher
+create data frame that has the same rows as subsetted data, but contains columns for balls, strikes, pitch type, inning
+
+balls = 0, strikes = 0 
+for each row 
+	store balls and strikes
+	store pitch type
+	store inning
+	update balls and strikes
+	if batter name[row+1] != batter name[row]
+		balls = 0, strikes = 0 
+	
+	
+	

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "gbm_carrot <- function(group = Group$group1){\n  fitControl <- trainControl(## 5-fold CV\n    method = \"cv\",\n    number = 5,\n    search = \"grid\",\n    verboseIter = TRUE,\n    allowParallel = TRUE)\n  \n  # fitControl <- trainControl(\n  #   method = \"none\",\n  #   verboseIter = TRUE, \n  #   allowParallel = TRUE)\n  \n  datControl = \"range\"\n  \n  gbmGrid <-  expand.grid(n.trees = (5:30)*50,\n                          interaction.depth = c(3, 5, 7, 12),\n                          shrinkage = .01,\n                          n.minobsinnode = 50)\n\n  # gbmGrid <-  expand.grid(n.trees = 1500,  \n  #                         interaction.depth = 6,\n  #                         shrinkage = .01,\n  #                         n.minobsinnode = 20)\n  \n  gbm_fit = train(group$Train$X, factor(group$Train$Y), method = 'gbm',  \n                  trControl = fitControl, tuneGrid = gbmGrid, preProcess = datControl)\n  \n  # plot(gbm_fit)\n  \n  conjures = predict(gbm_fit, newdata = group$Test$X)\n  group$Test$CrystalBall = conjures\n  group$Test$Method = gbm_fit\n  return(group)\n}\n",
+    "created" : 1511413096136.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1043495385",
+    "id" : "373C907",
+    "lastKnownWriteTime" : 1511413840,
+    "last_content_update" : 1511413840251,
+    "path" : "~/Documents/Academics/Rice University/Semesters/Fall 2017/STAT 413/Project/Crystal Ballers/Functions/Models/gbm_carrot.R",
+    "project_path" : "Functions/Models/gbm_carrot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

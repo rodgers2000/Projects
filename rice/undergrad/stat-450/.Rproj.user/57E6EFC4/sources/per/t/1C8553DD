@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522544360107.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "132446509",
+    "id" : "1C8553DD",
+    "lastKnownWriteTime" : 1522544940,
+    "last_content_update" : 1522544940620,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/STAT 450/R/Up or Down/Game/Functions/create_temp_StockTable_df.R",
+    "project_path" : "Game/Functions/create_temp_StockTable_df.R",
+    "properties" : {
+        "cursorPosition" : "7,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

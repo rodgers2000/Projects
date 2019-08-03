@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "rf_carrot <- function(group = Group$group1){\n  library(randomForest)\n  \n  fitControl = trainControl('oob', allowParallel = TRUE)\n  \n  datControl = NULL\n  \n  p = ncol(group$Train$X)\n  \n  gridContrl = expand.grid(mtry = c(1/2*sqrt(p), sqrt(p), 2*sqrt(p)))\n  \n  rf_fit = train(group$Train$X, factor(group$Train$Y), \n                 method = \"rf\", \n                 trControl = fitControl, \n                 tuneGrid = gridContrl, \n                 preProcess = datControl, \n                 ntree = 1000)\n  \n  conjures = predict(rf_fit, newdata = group$Test$X)\n  group$Test$CrystalBall = conjures\n  group$Test$Method = rf_fit \n  return(group)\n}\n",
+    "created" : 1511392587832.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3060947265",
+    "id" : "50224DE8",
+    "lastKnownWriteTime" : 1511400000,
+    "last_content_update" : 1511400000009,
+    "path" : "~/Documents/Academics/Rice University/Semesters/Fall 2017/STAT 413/Project/Crystal Ballers/Functions/Models/rf_carrot.R",
+    "project_path" : "Functions/Models/rf_carrot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

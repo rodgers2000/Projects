@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523156381702.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2050982017",
+    "id" : "37D991EC",
+    "lastKnownWriteTime" : 1523562340,
+    "last_content_update" : 1523562340010,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/SMGT 430/Project/Final Project/Game/Objects/UnivTimeSeries.R",
+    "project_path" : "Game/Objects/UnivTimeSeries.R",
+    "properties" : {
+        "cursorPosition" : "5,15",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

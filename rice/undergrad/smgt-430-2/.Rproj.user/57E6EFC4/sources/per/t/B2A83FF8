@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524089347179.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "418831579",
+    "id" : "B2A83FF8",
+    "lastKnownWriteTime" : 1523494441,
+    "last_content_update" : 1523494441,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/SMGT 430/Project/Final Project/Game/Scripts/Backtest/run_pyrima_backtest.R",
+    "project_path" : "Game/Scripts/Backtest/run_pyrima_backtest.R",
+    "properties" : {
+        "cursorPosition" : "72,176",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "compare_2_benchmark <- function(my_preds, name = \"The Tree of Michael (No Feature Selection and Scaled, Benchmark)\"){\n  path = paste0(getwd(), \"/Predictions/\")\n  preds = read_csv(paste0(path, name, \".csv\"))\n  cat(sum(my_preds != preds$Prediction), \"\\n\")\n}\n",
+    "created" : 1511390173445.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3412877944",
+    "id" : "6EF0CDB5",
+    "lastKnownWriteTime" : 1511333150,
+    "last_content_update" : 1511333150,
+    "path" : "~/Documents/Academics/Rice University/Semesters/Fall 2017/STAT 413/Project/Crystal Ballers/Functions/Others/compare_2_benchmarks.R",
+    "project_path" : "Functions/Others/compare_2_benchmarks.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

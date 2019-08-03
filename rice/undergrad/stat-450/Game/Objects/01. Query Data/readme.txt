@@ -1,0 +1,1 @@
+This object produces the raw data for one stock. 

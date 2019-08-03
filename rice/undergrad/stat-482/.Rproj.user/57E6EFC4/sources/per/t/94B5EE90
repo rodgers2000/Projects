@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1515873991900.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2165376614",
+    "id" : "94B5EE90",
+    "lastKnownWriteTime" : 1511984082,
+    "last_content_update" : 1511984082,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Fall 2017/STAT 482/Final Project/Learning the Fundamentals/Scripts/loop_through_labels.R",
+    "project_path" : "Scripts/loop_through_labels.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

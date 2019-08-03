@@ -1,0 +1,35 @@
+Task0:
+
+Runtime: O(1)
+
+This is a constant time algorithm. It had two lines of code. 
+
+Task1: 
+
+Runtime: O(2n + 1) * 2 = O(2n) = O(n)
+
+This is an N time algorithm. It had two for loops, but constants can be removed. 
+
+Task2: 
+
+Runtime: O(n + 6) + O(2) + O(n + 3) = O(n)
+
+This is an N time algorithm. It used two seperate loops. 
+
+Task3 Part A:
+
+Runtime: O(n + 13) + O(n log(n))= O(n log(n))
+
+This is an N log N time algorithm because of sorting the list. 
+
+Task3 Part B:
+
+Runtime: O(n + 3) = O(n)
+
+This is an N time algorithm because I had one loop
+
+Task 4: 
+
+Runtime: O(n + 2) + O(n + 4) + O(n + 2) + O(n log(n)) = O(n log(n))
+
+This is an N log N time algorithm because of sorting the list. 

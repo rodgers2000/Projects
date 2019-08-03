@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520969804415.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3663886310",
+    "id" : "18786CD9",
+    "lastKnownWriteTime" : 1521094501,
+    "last_content_update" : 1521094501083,
+    "path" : "~/Documents/Education/Academics/Rice University/Semesters/Spring 2018/STAT 450/R/Up or Down/Game/Objects/3. Form Datasets/TrainTest.R",
+    "project_path" : "Game/Objects/3. Form Datasets/TrainTest.R",
+    "properties" : {
+        "cursorPosition" : "86,27",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
